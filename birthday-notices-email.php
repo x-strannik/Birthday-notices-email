@@ -43,7 +43,7 @@ foreach( $myposts as $pst ){
     $url = get_permalink($pst);
     $pageper = get_page_by_path( $url );
     $postper_title = get_the_title( $pageper );
-    $soob2 .= '<li><a href=' . $url . '> ' . $postper_title . ' (' .  $drojd . ')</a></li>';
+    $soob2 .= '<li><a href="' . $url . '"> ' . $postper_title . ' (' .  $drojd . ')</a></li>';
 } 
 }
 $soob = $soob2;
